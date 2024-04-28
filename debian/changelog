@@ -1,5 +1,25 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-first (2.0.0-3) unstable; urgency=medium
 
-  * Initial release
+  * QA upload.
+  * Set the Maintainer field to the QA Group.
+  * Drop Python 2 support.
+  * Switch to pybuild.
+  * Add B-D: dh-python.
+  * Switch priority from extra to optional.
+  * Drop obsolete X-Python-Version field.
+  * Drop outdated Vcs-* fields.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Andrey Rahmatullin <wrar@debian.org>  Mon, 12 Aug 2019 23:23:11 +0500
+
+python-first (2.0.0-2) unstable; urgency=low
+
+  * Install all Python version to build (Closes: #718097)
+  * Patch setup.py so install works in non-UTF-8 environment
+
+ -- Julien Danjou <acid@debian.org>  Sun, 28 Jul 2013 13:07:53 +0200
+
+python-first (2.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #711359)
+
+ -- Julien Danjou <acid@debian.org>  Thu, 06 Jun 2013 16:42:54 +0200
